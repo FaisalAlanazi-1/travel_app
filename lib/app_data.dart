@@ -6,13 +6,13 @@ const categoriesData = [
     id: 'c1',
     title: 'جبال',
     imageUrl:
-        'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+        'https://vid.alarabiya.net/images/2020/07/27/8808ecd5-377d-4f81-bfb5-ae131c5fdbf8/8808ecd5-377d-4f81-bfb5-ae131c5fdbf8.jpg?width=801',
   ),
   Category(
     id: 'c2',
     title: 'واحات',
     imageUrl:
-        'https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+        'https://cnn-arabic-images.cnn.io/cloudinary/image/upload/w_1200,c_scale,q_auto/cnnarabic/2020/06/21/images/157916.avif',
   ),
   Category(
     id: 'c3',
@@ -30,7 +30,7 @@ const categoriesData = [
     id: 'c5',
     title: 'مدن تاريخية',
     imageUrl:
-        'https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+        'https://destinationksa.com/wp-content/uploads/content/%D8%A3%D9%85%D8%A7%D9%83%D9%86-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-4-1.jpg',
   ),
   Category(
     id: 'c6',
@@ -44,11 +44,11 @@ const Trips_data = const [
   Trip(
     id: 'm1',
     categories: ['c1'],
-    title: 'جبال الحجر - عمان',
+    title: 'الجبل الأخضر - عمان',
     tripType: TripType.Exploration,
     season: Season.Winter,
     imageUrl:
-        'https://images.unsplash.com/photo-1512553353614-82a7370096dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/36/af/e0/the-jebel-akhar-is-part.jpg?w=700&h=400&s=1',
     duration: 20,
     activities: [
       'رحلات المشي في الجبال',
@@ -76,7 +76,7 @@ const Trips_data = const [
     tripType: TripType.Exploration,
     season: Season.Winter,
     imageUrl:
-        'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/12/00/6a/dsc02280-2-largejpg.jpg?w=700&h=400&s=1',
     duration: 15,
     activities: [
       'مشاهدة شروق الشمس',
@@ -102,7 +102,7 @@ const Trips_data = const [
     tripType: TripType.Recovery,
     season: Season.Winter,
     imageUrl:
-        'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://upload.wikimedia.org/wikipedia/commons/3/34/%D8%AC%D8%A8%D8%A7%D9%84_%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9_%D9%81%D9%8A%D9%81%D8%A7_%D8%A8%D9%85%D9%86%D8%B7%D9%82%D8%A9_%D8%AC%D8%A7%D8%B2%D8%A7%D9%86_%D8%AC%D9%86%D9%88%D8%A8_%D8%BA%D8%B1%D8%A8%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9_%282025%29.jpg',
     duration: 25,
     activities: [
       'استكشاف المدرجات الزراعية',
@@ -123,12 +123,12 @@ const Trips_data = const [
   ),
   Trip(
     id: 'm4',
-    categories: ['c2', 'c4'],
+    categories: ['c2'],
     title: 'واحة الأحساء - السعودية',
     tripType: TripType.Activities,
     season: Season.Spring,
     imageUrl:
-        'https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://www.visitsaudi.com/content/dam/wvs/destinations/al-ahsa/alahsa-oasis.jpg',
     duration: 30,
     activities: [
       'زيارة مزارع النخيل',
@@ -154,7 +154,7 @@ const Trips_data = const [
     tripType: TripType.Activities,
     season: Season.Winter,
     imageUrl:
-        'https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Canal_-_panoramio_%2817%29.jpg/330px-Canal_-_panoramio_%2817%29.jpg',
     duration: 20,
     activities: [
       'رحلات السفاري الصحراوية',
@@ -176,11 +176,11 @@ const Trips_data = const [
   Trip(
     id: 'm6',
     categories: ['c2'],
-    title: 'وادي بني خالد - عمان',
+    title: 'واحة بهلاء - عمان',
     tripType: TripType.Exploration,
     season: Season.Summer,
     imageUrl:
-        'https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://static.hiamag.com/styles/autox754/public/2013/03/%D9%88%D8%A7%D8%AD%D8%A9-%D8%A8%D9%87%D9%84%D8%A7%D8%A1.jpg',
     duration: 12,
     activities: [
       'السباحة في البرك الطبيعية',
@@ -190,7 +190,7 @@ const Trips_data = const [
       'التصوير الطبيعي'
     ],
     program: [
-      'الوصول إلى الوادي والاستمتاع بالمياه الفيروزية النقية',
+      'الوصول إلى الواحة والاستمتاع بالمياه الفيروزية النقية',
       'السباحة في البرك الطبيعية المحاطة بالنخيل',
       'استكشاف الكهوف المائية الرائعة',
       'تناول وجبة غداء خفيفة على ضفاف الوادي'
@@ -202,11 +202,11 @@ const Trips_data = const [
   Trip(
     id: 'm7',
     categories: ['c3'],
-    title: 'شاطئ الممزر - دبي',
+    title: ' البحر الأحمر - السعودية',
     tripType: TripType.Recovery,
     season: Season.Winter,
     imageUrl:
-        'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://www.visitsaudi.com/content/dam/wvs/stories/Red-sea-two.jpg',
     duration: 15,
     activities: [
       'السباحة في البحر',
@@ -228,11 +228,11 @@ const Trips_data = const [
   Trip(
     id: 'm8',
     categories: ['c3'],
-    title: 'شاطئ السيف - الكويت',
+    title:   'شاطئ الفويرط - قطر',
     tripType: TripType.Recovery,
     season: Season.Spring,
     imageUrl:
-        'https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/5d/c7/d0/caption.jpg?w=700&h=400&s=1',
     duration: 10,
     activities: [
       'المشي على الكورنيش',
@@ -254,11 +254,11 @@ const Trips_data = const [
   Trip(
     id: 'm9',
     categories: ['c3'],
-    title: 'شاطئ كتارا - قطر',
+    title: 'شاطئ الغارية - قطر',
     tripType: TripType.Exploration,
     season: Season.Summer,
     imageUrl:
-        'https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/6b/eb/54/very-clean-beach-and.jpg?w=700&h=400&s=1',
     duration: 18,
     activities: [
       'السباحة والرياضات المائية',
@@ -284,7 +284,7 @@ const Trips_data = const [
     tripType: TripType.Activities,
     season: Season.Winter,
     imageUrl:
-        'https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://destinationksa.com/wp-content/uploads/content/%D8%B5%D8%AD%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D9%84%D9%8A-5.webp',
     duration: 35,
     activities: [
       'رحلات السفاري بالدفع الرباعي',
@@ -312,7 +312,7 @@ const Trips_data = const [
     tripType: TripType.Activities,
     season: Season.Winter,
     imageUrl:
-        'https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbzDcVoPEFMwt1vo1NKQlWx7C80Jl4QpopUqq2mGcPiQQrGhlKA_03ZaM0Q4scJ2TQJGACc6p1uGaSzYK98tm9TfHHVgX_fv3nWl0oBAX&s=10',
     duration: 25,
     activities: [
       'ركوب الكثبان الرملية',
@@ -340,7 +340,7 @@ const Trips_data = const [
     tripType: TripType.Activities,
     season: Season.Winter,
     imageUrl:
-        'https://images.unsplash.com/photo-1565092768028-4ccf5f7e6c58?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://explore.rehlat.ae/static/media/searchdestination/thingstodo/images/mesaieed/khor_al_udaid_beach/Khor_Al_Udaid_Beach.webp',
     duration: 20,
     activities: [
       'ركوب الكثبان الرملية',
@@ -368,7 +368,7 @@ const Trips_data = const [
     tripType: TripType.Exploration,
     season: Season.Winter,
     imageUrl:
-        'https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/At-Turaif_District_of_Diriyah%2C_Saudi_Arabia.jpg/1920px-At-Turaif_District_of_Diriyah%2C_Saudi_Arabia.jpg',
     duration: 18,
     activities: [
       'زيارة حي الطريف التاريخي',
@@ -396,7 +396,7 @@ const Trips_data = const [
     tripType: TripType.Exploration,
     season: Season.Winter,
     imageUrl:
-        'https://images.unsplash.com/photo-1512632578888-169bbbc64f33?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+        'https://upload.wikimedia.org/wikipedia/commons/9/95/Camello_y_campamento%2C_Al_Bastakiya%2C_Dubai%2C_2009-11-23%2C_DD_8878.jpg',
     duration: 12,
     activities: [
       'جولة في الحي التاريخي',
@@ -417,34 +417,7 @@ const Trips_data = const [
     isForFamilies: true,
     isInWinter: true,
   ),
-  Trip(
-    id: 'm15',
-    categories: ['c5'],
-    title: 'مدينة مسقط القديمة - عمان',
-    tripType: TripType.Exploration,
-    season: Season.Winter,
-    imageUrl:
-        'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-    duration: 22,
-    activities: [
-      'زيارة قصر العلم السلطاني',
-      'استكشاف الحصون التاريخية',
-      'جولة في سوق مطرح',
-      'زيارة المساجد الأثرية',
-      'التسوق في الأسواق التقليدية'
-    ],
-    program: [
-      'بداية الجولة بزيارة قصر العلم السلطاني',
-      'استكشاف حصن الجلالي والميراني',
-      'جولة في مدينة مسقط القديمة والأسواق التقليدية',
-      'زيارة جامع السلطان قابوس الأكبر',
-      'جولة في سوق مطرح التقليدي',
-      'تناول عشاء عماني في مطعم تراثي'
-    ],
-    isInSummer: false,
-    isForFamilies: true,
-    isInWinter: true,
-  ),
+  
   Trip(
     id: 'm16',
     categories: ['c6'],
@@ -473,32 +446,5 @@ const Trips_data = const [
     isForFamilies: true,
     isInWinter: true,
   ),
-  Trip(
-    id: 'm17',
-    categories: ['c6'],
-    title: 'مهرجان الجنادرية',
-    tripType: TripType.Activities,
-    season: Season.Winter,
-    imageUrl:
-        'https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-    duration: 15,
-    activities: [
-      'مشاهدة سباق الهجن',
-      'زيارة الأجنحة التراثية',
-      'حضور العروض الشعبية',
-      'تذوق الأطعمة التقليدية',
-      'شراء الحرف اليدوية'
-    ],
-    program: [
-      'زيارة مهرجان الجنادرية للتراث والثقافة',
-      'مشاهدة سباقات الهجن والخيل المثيرة',
-      'جولة في أجنحة المناطق وتجربة الأطعمة المحلية',
-      'حضور العروض الفنية والرقصات الشعبية',
-      'التسوق في السوق الشعبي وشراء الهدايا التذكارية',
-      'تناول عشاء تقليدي في خيمة المهرجان'
-    ],
-    isInSummer: false,
-    isForFamilies: true,
-    isInWinter: true,
-  ),
+  
 ];
